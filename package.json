@@ -1,0 +1,29 @@
+{
+  "name": "html-scss-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url https://nykolyn.github.io/html-scss-landing/ --no-content-hash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nykolyn/html-scss-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nykolyn/html-scss-landing/issues"
+  },
+  "homepage": "https://nykolyn.github.io/html-scss-landing/",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.5"
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "jquery": "^3.5.1"
+  }
+}

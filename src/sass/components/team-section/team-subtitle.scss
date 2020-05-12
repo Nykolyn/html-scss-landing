@@ -1,0 +1,9 @@
+.team-section__subtitle {
+  text-transform: none;
+  @extend %header-clean;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-size: 24px;
+  font-family: $secondary-font-family;
+}

@@ -1,0 +1,48 @@
+.page-menu {
+  @extend %list;
+  @include center-flex(ver);
+
+  &__item:not(:last-child) {
+    margin-right: 54px;
+  }
+}
+
+.page-menu__link {
+  position: relative;
+  color: $main-text-color;
+  transition: $transition;
+  @extend %link;
+  font-size: $main-font-size;
+  font-family: $main-font-family;
+  text-transform: uppercase;
+
+  &::after {
+    content: '';
+    transition: $transition;
+  }
+
+  &:hover {
+    color: $main-hover-color;
+  }
+}
+
+.menu-link__icon {
+  display: block;
+  width: 23px;
+  height: 20px;
+  fill: $main-text-color;
+  transition: $transition;
+
+  &:hover {
+    fill: $main-hover-color;
+  }
+}
+
+.page-menu__item:not(:nth-last-child(-n + 2)):hover .page-menu__link::after {
+  content: '';
+  display: block;
+  position: absolute;
+  margin-top: 10px;
+  width: 100%;
+  border-bottom: 4px solid $main-hover-color;
+}

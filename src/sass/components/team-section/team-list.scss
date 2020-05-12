@@ -1,0 +1,4 @@
+.team-section__list {
+  @extend %list;
+  @include flex-justify(between);
+}

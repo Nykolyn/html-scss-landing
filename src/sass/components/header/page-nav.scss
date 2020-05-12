@@ -1,0 +1,22 @@
+.page-nav {
+  @include flex-justify(baseline);
+  margin-bottom: 170px;
+}
+
+.site-title {
+  @extend %header-clean;
+  &__link {
+    display: block;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 30px;
+    color: #fff;
+    font-family: $main-font-family;
+    font-weight: 700;
+    transition: $transition;
+
+    &:hover {
+      color: #fce38a;
+    }
+  }
+}

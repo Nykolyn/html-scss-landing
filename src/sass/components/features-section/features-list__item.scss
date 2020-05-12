@@ -1,0 +1,59 @@
+.features-item {
+  flex-basis: 382px;
+  padding-left: 82px;
+  position: relative;
+
+  &:not(:nth-last-child(-n + 3)) {
+    margin-bottom: 90px;
+  }
+
+  &::before {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  &__title {
+    @extend %header-clean;
+    font-weight: 400;
+    font-family: $main-font-family;
+    text-transform: uppercase;
+    font-size: $main-font-size;
+    margin-bottom: 16px;
+    color: $secondary-text-color;
+  }
+
+  &__desc {
+    @extend %header-clean;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: $third-font-family;
+    text-transform: none;
+    color: $third-text-color;
+  }
+
+  &:nth-child(1):before {
+    content: url(../images/features-icons/clock.svg);
+  }
+
+  &:nth-child(2):before {
+    content: url(../images/features-icons/picture.svg);
+  }
+
+  &:nth-child(3)::before {
+    content: url(../images/features-icons/monitor.svg);
+  }
+
+  &:nth-child(4)::before {
+    content: url(../images/features-icons/book.svg);
+  }
+
+  &:nth-child(5)::before {
+    content: url(../images/features-icons/house.svg);
+  }
+
+  &:nth-child(6)::before {
+    content: url(../images/features-icons/digital.svg);
+  }
+}

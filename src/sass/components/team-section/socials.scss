@@ -1,0 +1,26 @@
+.socials-list {
+  @extend %list;
+  display: flex;
+}
+
+.socials-item__link {
+  width: 56px;
+  margin-right: 1px;
+  @include center-flex(all);
+  height: 56px;
+  background-color: $main-hover-color;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: $transition;
+  fill: #f38181;
+
+  &:hover {
+    background-color: #f38181;
+    fill: $main-text-color;
+  }
+}
+
+.socials-link__icon {
+  width: 30px;
+  height: 30px;
+}

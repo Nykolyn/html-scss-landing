@@ -1,0 +1,4 @@
+.features-list {
+  @extend %list;
+  @include flex-justify(around);
+}

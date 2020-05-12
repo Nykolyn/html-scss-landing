@@ -1,0 +1,10 @@
+.team-section__item {
+  &:hover .overlay {
+    opacity: 1;
+    box-shadow: 10px 10px #95e1d3;
+  }
+
+  &:hover .team-member__wrap {
+    transform: translate(-10px, -10px);
+  }
+}

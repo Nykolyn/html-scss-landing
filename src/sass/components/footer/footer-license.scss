@@ -1,0 +1,17 @@
+.footer-license {
+  @extend %header-clean;
+  font-size: $main-font-size;
+  font-family: $main-font-family;
+  text-transform: none;
+  color: $secondary-text-color;
+
+  &::before {
+    content: ' \00A9';
+    margin-right: 5px;
+  }
+
+  &__author {
+    text-decoration: none;
+    color: #f38181;
+  }
+}

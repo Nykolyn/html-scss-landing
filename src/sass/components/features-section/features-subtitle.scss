@@ -1,0 +1,9 @@
+.features-section__subtitle {
+  @extend %header-clean;
+  text-transform: none;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-size: 24px;
+  font-family: $secondary-font-family;
+}

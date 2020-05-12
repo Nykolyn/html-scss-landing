@@ -1,0 +1,57 @@
+/*
+   Import partials below
+*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import "./normalize";
+@import "./helpers/variables";
+@import "./helpers/colors.scss";
+@import "./helpers/placeholders.scss";
+@import "./helpers/mixins.scss";
+@import "./base";
+
+// components
+
+@import "./components/container";
+
+// header
+
+@import "./components/header/header";
+@import "./components/header/page-nav.scss";
+@import "./components/header/page-navigation";
+@import "./components/header/header-title";
+@import "./components/header/header-subtitle";
+@import "./components/header/header-button";
+
+// Main //  Features-section
+
+@import "./components/features-section/features-section";
+@import "./components/features-section/features-subtitle";
+@import "./components/features-section/features-title";
+@import "./components/features-section/features-list.scss";
+@import "./components/features-section/features-list__item.scss";
+
+// Team-section
+
+@import "./components/team-section/team-section";
+@import "./components/team-section/team-subtitle";
+@import "./components/team-section/team-title";
+@import "./components/team-section/team-desc";
+@import "./components/team-section/team-list";
+@import "./components/team-section/team-list-item";
+@import "./components/team-section/team-list-item.scss";
+@import "./components/team-section/team-member-info.scss";
+@import "./components/team-section/overlay";
+@import "./components/team-section/socials";
+
+// Footer
+
+@import "./components/footer/page-footer.scss";
+@import "./components/footer/footer-license.scss";
+@import "./components/footer/subscribe-form.scss";
+
+// Media
+
+@import "./components/2x-img-media.scss";

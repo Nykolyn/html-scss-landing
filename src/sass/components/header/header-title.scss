@@ -1,0 +1,9 @@
+.page-header__title {
+  @extend %header-clean;
+  margin-bottom: 60px;
+  font-family: $secondary-font-family;
+  text-transform: none;
+  font-size: 72px;
+  text-align: center;
+  color: $main-text-color;
+}

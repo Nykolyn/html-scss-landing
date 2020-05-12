@@ -1,0 +1,19 @@
+.page-header__button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 28px;
+  font-size: $main-font-size;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: none;
+  color: $main-text-color;
+  border: 3px solid $main-text-color;
+  cursor: pointer;
+  transition: $transition;
+
+  &:hover {
+    border-color: $main-hover-color;
+    color: $main-hover-color;
+    background-color: $main-text-color;
+  }
+}

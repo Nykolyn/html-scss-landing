@@ -1,0 +1,14 @@
+.page-header {
+  padding-top: 30px;
+  padding-bottom: 230px;
+  margin-bottom: 120px;
+  background: linear-gradient(
+      to top,
+      rgba(252, 227, 138, 0.9) 0%,
+      rgba(243, 129, 129, 0.9) 100%
+    ),
+    url(../images/header-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
